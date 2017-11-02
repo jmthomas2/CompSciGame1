@@ -13,9 +13,14 @@ public class Tile {
     private int xLoc;
     private int yLoc;
     
-    public Tile (int xLoc, int yLoc) {
+    public Tile (int xLoc, int yLoc, boolean isCorrect) {
         this.xLoc = xLoc;
         this.yLoc = yLoc;
+        this.isCorrect = isCorrect;
+    }
+    
+    public boolean getIsCorrect () {
+        return isCorrect;
     }
     
     public void showColor () {
