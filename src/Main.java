@@ -6,14 +6,8 @@
 
 /**
  *
- * @author katalbert
+ * @author jessicathomas
  */
-public class Person {
-    public void die() {
-        //KILL THE DUDE
-    }
+public class Main {
     
-    public void move() {
-        
-    }
 }
