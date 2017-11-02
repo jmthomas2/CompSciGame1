@@ -9,20 +9,17 @@
  * @author katalbert
  */
 public class Tile {
-    private Person person;
-    private int fillColor;
+    private boolean isCorrect;
     private int xLoc;
     private int yLoc;
     
-    public Tile (Person person, int fillColor, int xLoc, int yLoc) {
-        this.person = person;
-        this.fillColor = fillColor;
+    public Tile (int xLoc, int yLoc) {
         this.xLoc = xLoc;
         this.yLoc = yLoc;
     }
     
     public void showColor () {
-        //make it green
+        //change image
     }
     
 }
