@@ -8,13 +8,13 @@
  *
  * @author katalbert
  */
-public class Correct {
+public class Tile {
     private Person person;
     private int fillColor;
     private int xLoc;
     private int yLoc;
     
-    public Correct (Person person, int fillColor, int xLoc, int yLoc) {
+    public Tile (Person person, int fillColor, int xLoc, int yLoc) {
         this.person = person;
         this.fillColor = fillColor;
         this.xLoc = xLoc;
@@ -25,7 +25,4 @@ public class Correct {
         //make it green
     }
     
-    public void movePerson () {
-        person.move (xLoc, yLoc);
-    }
 }
